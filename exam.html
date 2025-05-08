@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Création d'Examen</title>
+  <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Créer un Examen</h1>
+    <form id="examForm">
+      <input type="text" id="title" placeholder="Titre" required>
+      <textarea id="description" placeholder="Description"></textarea>
+      <input type="text" id="targetAudience" placeholder="Public ciblé" required>
+      <button type="submit">Créer l'Examen</button>
+    </form>
+
+    <div id="linkContainer" style="display: none;">
+      <h2>Examen créé !</h2>
+      <p id="examLink"></p>
+    </div>
+  </div>
+
+  <script src="exam.js"></script>
+</body>
+</html>
