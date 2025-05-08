@@ -1,0 +1,134 @@
+body {
+    background-image: url("professional.jpg.jpg");
+    height: 250vh;
+    font-family: arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    position: relative;
+  }
+  form {
+    background: rgba(255, 255, 255, .3);
+    padding: 8rem;
+    height: 890px;
+    border-radius: 20px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 5px solid rgba(255, 255, 255, .3);
+    border-right: 5px solid rgba(255, 255, 255, .3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+    text-align: center;
+  }
+  p {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    opacity: .7;
+    font-size: 2rem;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+  }
+  input {
+    background: transparent;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    padding: 1rem;
+    width: 200px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+    color: rgb(5, 5, 5);
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    transition: all .3s;
+    margin-bottom: 2em;
+  }
+  select {
+    background: transparent;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    padding: 1rem;
+    width: 200px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: medium;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    transition: all .3s;
+    margin-bottom: 2em;
+  }
+
+  input:hover,
+input[name="email"]:focus,
+input[name="sexe"]:focus,
+input[name="filiere"]:focus,
+input[name="date"]:focus{
+  background: rgba(255,255,255,0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+} 
+input[id="sexe"]:focus{
+    margin-top: 10px;
+    width: 150px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    margin-top: 10px;
+    width:200px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  button {
+    background: transparent;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    padding: 1rem;
+    width: 200px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+    color: rgb(5, 5, 5);
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    transition: all .3s;
+    margin-bottom: 2em;
+  }
+  ::placeholder {
+    color: #686262;
+  }
+  input[type="password" i] {
+    -webkit-text-security: disc !important;
+    background: rgba(255,255,255,0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+} 
+a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 15px;
+}
+
+a:hover {
+  text-shadow: 2px 2px 6px #49576dd4;
+}
+
+a:active {
+  text-shadow: none;
+}
+.mot {
+  color: #fff;
+}
