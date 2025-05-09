@@ -1,0 +1,107 @@
+
+:root {
+    --wa-primary: #008069;
+    --wa-secondary: #00a884;
+    --wa-background: #f0f2f5;
+    --wa-surface: #ffffff;
+    --wa-border: #e9edef;
+    --wa-text: #111b21;
+    --wa-warning: #ff6b6b;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--wa-background);
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.p-header {
+    background: var(--wa-primary);
+    color: white;
+    padding: 20px;
+    border-radius: 12px 12px 0 0;
+    text-align: center;
+}
+
+.p-header.warning {
+    background: var(--wa-warning);
+}
+
+.p-form {
+    background: var(--wa-surface);
+    padding: 30px;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid var(--wa-border);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background: var(--wa-primary);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: var(--wa-secondary);
+}
+
+.geoloc-box {
+    background: var(--wa-surface);
+    padding: 30px;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+}
+
+.geoloc-icon {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.exam-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: var(--wa-surface);
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.questions-container {
+    background: var(--wa-surface);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.question-item {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid var(--wa-border);
+    border-radius: 8px;
+}
+
+.exam-footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}

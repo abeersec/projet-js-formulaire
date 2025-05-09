@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passer l'examen - ETUPRO</title>
+    <link rel="stylesheet" href="k.css">
+</head>
+<body>
+    <div id="loginSection" class="container">
+        <div class="p-header">
+            <h1>Connexion Étudiant</h1>
+        </div>
+        
+        <form id="loginForm" class="p-form">
+            <input type="email" placeholder="Adresse email" required>
+            <input type="password" placeholder="Mot de passe" required>
+            <button type="submit">Se connecter</button>
+        </form>
+    </div>
+
+    <div id="geolocationSection" class="container" style="display: none;">
+        <div class="p-header warning">
+            <h1>Vérification de localisation</h1>
+        </div>
+        <div class="geoloc-box">
+            <div class="geoloc-icon">📍</div>
+            <p>L'accès à votre position est requis</p>
+            <button id="enableGeoloc">Autoriser la localisation</button>
+        </div>
+    </div>
+
+    <div id="examSection" class="container" style="display: none;">
+        <div class="exam-header">
+            <div class="header-left">
+                <h1 id="examTitle"></h1>
+                <div id="timer">00:00</div>
+            </div>
+            <div class="header-right">
+                <span id="studentName"></span>
+            </div>
+        </div>
+
+        <div id="questionsContainer" class="questions-container"></div>
+
+        <div class="exam-footer">
+            <button id="submitExam" class="w-button">
+                Soumettre l'examen
+            </button>
+        </div>
+    </div>
+
+    <script src="k.js"></script>
+</body>
+</html>
